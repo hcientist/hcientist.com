@@ -1,5 +1,6 @@
 /public
 resources/
 node_modules/
-package-lock.json
+# not sure why this is in .gitgnore?
+# package-lock.json
 .hugo_build.lock
