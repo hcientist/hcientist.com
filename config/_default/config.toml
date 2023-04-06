@@ -1,6 +1,8 @@
 baseURL = "/" # for local
 title = "Dr. Michael Stewart - HCIentist"
 
+staticDir = ['static','content/en/about/static']
+
 enableRobotsTXT = true
 
 # Hugo allows theme composition (and inheritance). The precedence is from left to right.
