@@ -13,7 +13,7 @@ Let's help a pal out and follow web standards and accessibility guidelines whene
 
 ## Scenarios
 
-There are 2 scenarios that I'm thinking of:
+There are 2 scenarios that I'm thinking of where this most often happens (#1 is most likely better off as a `<button>`):
 1. webdev wants to perform an action when the user clicks, uses an anchor tag without an href (which is invalid) and listens for the click event. This one seems to be covered all over the web. I'm a North Carolinian... sort of, so I'll just link [NC State on this one](https://accessibility.oit.ncsu.edu/it-accessibility-at-nc-state/developers/accessibility-handbook/mouse-and-keyboard-events/links/link-behavior/).
 1. webdev has code that mostly does a bunch of other things great, doesn't want to break a bunch of old code and style, but does want to be able to link out to another page, so they apply a click handler that updates the `window.location` turning some non-anchor element into a link.
 
