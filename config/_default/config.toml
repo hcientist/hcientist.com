@@ -262,6 +262,9 @@ html_dom_element = "document.body"
 social_logo_path = "favicons/apple-touch-icon-152x152.png"
 social_image_path = "apple-touch-icon-152x152.png"
 
+[security]
+allowContent = ['text/html', 'text/org']
+
 # hugo module configuration
 
 [module]
