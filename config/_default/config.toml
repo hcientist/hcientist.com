@@ -263,7 +263,7 @@ social_logo_path = "favicons/apple-touch-icon-152x152.png"
 social_image_path = "apple-touch-icon-152x152.png"
 
 [security]
-allowContent = ['text/html', 'text/org']
+allowContent = ['text/html', 'text/markdown', 'text/org']
 
 # hugo module configuration
 
